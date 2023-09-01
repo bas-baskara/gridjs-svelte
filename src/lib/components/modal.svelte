@@ -1,10 +1,10 @@
 <script>
-	import { createEventDispatcher } from "svelte";
+	import { createEventDispatcher } from 'svelte';
 
 	let modal;
 
 	const dispatch = createEventDispatcher();
-	const close = () => dispatch("close");
+	const close = () => dispatch('close');
 </script>
 
 <div class="modal-background" on:click={close} />

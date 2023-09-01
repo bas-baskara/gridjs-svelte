@@ -1,1 +1,1 @@
-export { default } from "./gridjs.svelte";
+export { default } from './gridjs.svelte';

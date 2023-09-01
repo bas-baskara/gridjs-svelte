@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Row, Cell } from "gridjs";
-	import Modal from "./modal.svelte";
+	import type { Row, Cell } from 'gridjs';
+	import Modal from './modal.svelte';
 
 	export let row: Row;
 	export let cell: Cell;

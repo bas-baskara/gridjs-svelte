@@ -1,4 +1,4 @@
-import { h, createRef as gCreateRef, Component as gComponent } from "gridjs";
+import { h, createRef as gCreateRef, Component as gComponent } from 'gridjs';
 
 interface SvelteWrapperProps {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -12,14 +12,14 @@ interface SvelteWrapperProps {
 	[key: string]: any;
 }
 
-function isFn(val) {
-	return typeof val === "function";
+function isFn(val: any) {
+	return typeof val === 'function';
 }
 
 export class SvelteWrapper extends gComponent<SvelteWrapperProps> {
 	static defaultProps = {
-		parentElement: "div",
-		parentProps: {},
+		parentElement: 'div',
+		parentProps: {}
 	};
 
 	ref = gCreateRef();
